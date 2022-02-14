@@ -1,6 +1,6 @@
 // Node server, which will handle socket io connections
 
-const io = require('socket.io')(8000, {
+const io = require('socket.io')(process.env.PORT ||8000, {
     cors: {
       origin: '*',
     }
