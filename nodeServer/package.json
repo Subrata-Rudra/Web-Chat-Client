@@ -1,0 +1,14 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is node server for our WebChat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subrata Rudra",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.4.1"
+  }
+}
