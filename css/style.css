@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgb(235, 240, 247),rgb(15, 179, 130));
+    height: 100vh;
+}
+
+h1{
+    margin: 12px 0;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 60px;
+}
+.container{
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: auto;
+    height: 55vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 6px;
+    background-color: rgb(240, 217, 217);
+    width: 25%;
+    word-wrap: break-word;
+}
+.left{
+    float: left;
+    clear: both;
+    border-radius: 20px 5px;
+}
+.right{
+    float: right;
+    clear: both;
+    border-radius: 5px 20px;
+}
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1092px;
+}
+#messageInp{
+    height: 34px;
+    width: 81%;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    outline: none;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 12%;
+    outline: none;
+    height: 37px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+.btn:hover{
+    /* background: rgb(7, 187, 7); */
+    background: #09992d;
+    color: white;
+}
+.foot{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.foot a{
+    text-decoration: none;
+    color: #1a09d6;
+}
